@@ -1,0 +1,94 @@
+
+* {
+  margin: 15px 0px 0px 10px;
+  padding: 0px;
+  background-color: #f4f4f4;
+}
+
+/* ------  nav bar  --------- */
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+#navMid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Allerta;
+  font-size: 23px;
+  font-weight: 1px;
+}
+#navMid div:first-child h4 {
+  text-decoration: underline 4px;
+  font-size: 26px;
+}
+
+#navMid div h4 {
+  margin: 0px 50px 0px 25px;
+}
+#navEnd {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+#navEnd img {
+  padding: 15px;
+}
+
+/* ------  DOWN PART  ----- */
+
+#midWhole {
+  display: flex;
+  justify-content: space-between;
+}
+/* ---- left up side text----- */
+
+#midWholePart11 {
+  position: relative;
+  top: 150px;
+}
+#midWholePart11 h1 {
+  font-size: 100px;
+  font-family: Allerta;
+}
+.text {
+  position: relative;
+  font-family: Abel;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* ------  left middle part -------- */
+#midWholePart12 {
+  position: relative;
+  top: 190px;
+}
+#midWholePart121 div h1 {
+  background-color: rgb(49, 105, 49);
+  color: white;
+  border-radius: 10rem;
+  padding: 15px 25px;
+  font-size: 35px;
+  display: inline;
+  font-family: Allerta;
+  font-weight: 1px;
+}
+#midWholePart122 > img {
+}
+
+/* ------- left down part ------ */
+#midWholePart13 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 150px;
+}
+.midWholePart13Parts {
+  display: flex;
+}
+#midWholePart13 .midWholePart13Parts > p > .text {
+  display: none;
+}
